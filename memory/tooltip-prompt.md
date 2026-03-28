@@ -1,158 +1,235 @@
-# Tooltip Implementation Prompt for Lovable
+# Comprehensive Tooltip Implementation Prompt for Lovable
 
 ## Overview
-Add helpful tooltips throughout the Orvared interface to help users understand key fields, especially those related to special education workflows. Use the existing `IconTooltip` component that's already in the codebase.
+Add helpful tooltips throughout Orvared to help users understand key fields. Special focus on special education workflows, billing, and case management. Use the existing IconTooltip component.
 
 ---
 
-## Background
-- IconTooltip component already exists: `src/components/app/IconTooltip.tsx`
-- Already 116 tooltips in use across the app
-- Add tooltips to fields that aren't self-explanatory, especially special education specific terms
+## CLIENT MANAGEMENT (CRM)
+
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Client Name | "Full name of the parent/guardian or adult student" |
+| Email | "Primary contact email. Used for login and notifications." |
+| Phone | "Best contact number. Include extension if applicable." |
+| Address | "Mailing address for correspondence and billing." |
+| Client Status | "Active = current case | Inactive = no active matters | Prospective = considering services" |
+| Client Tags | "Labels for organization. Example: 'referral-source', 'priority', 'dcfs'" |
+| Preferred Contact | "How they prefer to be reached: Phone, Email, Text" |
+| Notes | "Private internal notes. Not visible to client." |
+| Referral Source | "Where this client came from: 'attorney-referral', 'parent-network', 'google'" |
+| Assigned To | "Which staff member is the primary contact for this client" |
 
 ---
 
-## Tooltip Content to Add
+## STUDENT RECORDS
 
-### Billing & Invoicing
-
-**Hourly Rate Field**
-- Content: "Your default rate per hour. Can be overridden for individual cases."
-- Placement: Next to hourly rate input in invoice builder
-
-**Invoice Due Date**
-- Content: "When payment is expected. Affects late fee calculation if enabled."
-- Placement: Next to due date picker
-
-**Time Entry Category**
-- Content: "Meeting = IEP meetings and ARD conferences | Document Review = reviewing records and reports | Calls = Parent/advocate phone calls | Research = Case research | Drafting = Writing letters/documents"
-- Placement: Next to category dropdown in time entry
-
-**Invoice Status**
-- Content: "Draft = Not sent yet | Sent = Awaiting payment | Paid = Payment received | Overdue = Past due date"
-- Placement: Next to status badge
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Student Name | "Full legal name of the child" |
+| Date of Birth | "Required for eligibility verification and age-appropriate services" |
+| Grade Level | "Current grade. Determines grade-band services and expectations." |
+| School | "The district school the student attends. Affects timeline calculations." |
+| Student ID | "District-assigned student ID (from enrollment records)" |
+| Primary Disability | "Main IDEA disability category (13 categories). Required for eligibility." |
+| Secondary Disabilities | "Additional disability categories, if any" |
+| Eligibility Date | "When student was first found eligible for IDEA services" |
+| Guardian Name(s) | "Who has educational decision-making rights" |
+| Relationship | "Parent, grandparent, foster parent, adult student" |
+| Custody Notes | "Who has legal custody. Important for consent and notices." |
 
 ---
 
-### Case Management
+## CASE MANAGEMENT
 
-**Case Status**
-- Content: "Active = Currently working on case | Closed = Case resolved | On Hold = Paused pending info"
-- Placement: Next to status dropdown
-
-**Priority Level**
-- Content: "High = Urgent timeline (due process, court dates) | Medium = Standard timeline | Low = Flexible, no rush"
-- Placement: Next to priority selector
-
-**Client Visibility**
-- Content: "Controls what the client can see in their portal. Turn off to hide from client."
-- Placement: Next to visibility toggle
-
----
-
-### Document Center
-
-**Document Type**
-- Content: "IEP = Individualized Education Program | Evaluation = Testing/assessment reports | Correspondence = Letters from district | Report = Progress reports, other documents"
-- Placement: Next to document type dropdown
-
-**Upload Tags**
-- Content: "Optional labels to help organize and search documents later. Example: 'prior-year', 'annual-review'"
-- Placement: Next to tags input
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Case Name | "Auto-generated from student name + case type. Can customize." |
+| Case Type | "IEP | 504 | Due Process | Transition | Advocacy" |
+| Case Status | "Active = working | Closed = resolved | On Hold = waiting on info/documents" |
+| Priority | "High = urgent deadline (due process, court) | Medium = standard | Low = no rush" |
+| Date Opened | "When you started working on this case" |
+| Primary Issue | "Main concern driving services: 'reading-disabled', 'behavioral', 'autism', etc." |
+| District Contact | "Who to communicate with at the school district" |
+| Case Goals | "What success looks like for this case" |
+| Assigned Staff | "Who is leading this case" |
+| Related Cases | "Link to related cases (siblings, same family)" |
 
 ---
 
-### Student Records
+## BILLING & INVOICING
 
-**Primary Disability**
-- Content: "The main disability category that qualifies the student for IDEA services. See 13 IDEA categories."
-- Placement: Next to disability dropdown
-
-**School District**
-- Content: "Determines which district's policies and timelines apply. Must be the district the student attends."
-- Placement: Next to district selector
-
-**Parent/Guardian**
-- Content: "The contact responsible for making educational decisions. Links to client record."
-- Placement: Next to parent dropdown
-
----
-
-### IEP Workflow
-
-**Baseline Data**
-- Content: "Measurable starting point showing current performance. Example: 'Reads 45 WPM with 70% comprehension'"
-- Placement: Next to baseline text area in goal editor
-
-**Measurable Criteria**
-- Content: "How we'll know the goal is mastered. Include accuracy %, duration, or trial count. Example: '90% accuracy across 3 data points'"
-- Placement: Next to criteria field in goal editor
-
-**Progress Monitoring**
-- Content: "How often progress will be measured. More frequent = better data for adjustments."
-- Placement: Next to frequency dropdown
-
-**Goal Area**
-- Content: "Reading, Writing, Math, Speech, Behavior, Functional Skills, Transition - choose the primary area this goal addresses"
-- Placement: Next to area dropdown
-
-**Service Minutes**
-- Content: "Minutes per week of this service. Check with state for minimums."
-- Placement: Next to minutes input
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Hourly Rate | "Your default rate per hour. Can override per-case in case settings." |
+| Rate Type | "Hourly = time-based | Flat Fee = fixed price for service | Retainer = prepaid hours" |
+| Invoice Due Date | "When payment expected. Affects late fee calculation." |
+| Invoice Status | "Draft = not sent | Sent = awaiting payment | Paid = received | Overdue = past due" |
+| Payment Method | "Check | Credit Card | Bank Transfer | Cash" |
+| Late Fee % | "Percentage charged if paid after due date" |
+| Billing Address | "Where to send invoice (may differ from client address)" |
+| PO Number | "Purchase Order number if district requires one for payment" |
+| Invoice Notes | "Internal notes for this invoice. Not visible to client." |
+| Adjustments | "Discounts or credits applied to this invoice" |
+| Write-Off | "Amount waived. Requires authorization for write-offs over $" |
 
 ---
 
-### Time Tracking
+## TIME TRACKING
 
-**Billable vs Non-Billable**
-- Content: "Billable = Can be included on invoice | Non-billable = Internal time, not charged to client"
-- Placement: Next to billable toggle
-
-**Timer Description**
-- Content: "Brief description of what you're working on. Will appear on invoice if billable."
-- Placement: Next to description input
-
----
-
-## Implementation Guidelines
-
-1. Use existing IconTooltip component
-2. Keep tooltips concise (1-2 sentences max)
-3. Add specific examples where helpful
-4. Match tone to existing tooltips (helpful, not technical)
-5. Test that tooltips are visible on both light and dark backgrounds
-6. Don't add tooltips to obvious fields (name, email, phone)
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Time Entry Category | "Meeting = IEP/ARD meetings | Document Review = records | Calls = parent calls | Research = case law/norms | Drafting = letters/docs" |
+| Duration | "Actual time spent in minutes. Timer rounds to nearest 15 min." |
+| Billable | "Billable = can include on invoice | Non-billable = internal time, not charged" |
+| Timer Description | "Brief description of work. Appears on invoice if billable." |
+| Date of Service | "When the work was done. Must be within case dates." |
+| Time Entry Notes | "Detailed notes if needed. Private, not on invoice." |
+| Overtime | "Hours beyond standard. Check client agreement for overtime rates." |
 
 ---
 
-## Priority Order
+## DOCUMENTS
 
-### First Priority (Must Have)
-- Hourly Rate
-- Case Status  
-- Baseline
-- Measurable Criteria
-- Progress Monitoring
-
-### Second Priority (Should Have)
-- Time Entry Category
-- Priority Level
-- Document Type
-- Service Minutes
-- Billable/Non-Billable
-
-### Third Priority (Nice to Have)
-- Invoice Due Date
-- Client Visibility
-- Upload Tags
-- School District
-- Goal Area
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Document Type | "IEP | Evaluation | Correspondence | Report | Medical | Legal" |
+| Document Date | "Date on the document (may differ from upload date)" |
+| Upload Tags | "Labels for search: 'annual-review', 'prior-year', 'critical', 'requested'" |
+| Document Notes | "Internal notes about this document" |
+| Confidential | "Mark if contains sensitive info (medical, legal) - restricted access" |
+| File Visibility | "Client Visible = can see in portal | Staff Only = internal only" |
+| Uploaded By | "Who uploaded this document" |
 
 ---
 
-## Deliverable
-Add IconTooltips to the fields listed above, using the content provided. Place them next to the relevant form field using the existing pattern:
+## IEP WORKFLOW
+
+| Field | Tooltip Content |
+| ----- | ----------------|
+| IEP Type | "Initial = first IEP | Annual = yearly review | Triennial = 3-year reeval | Amendment = mid-year change" |
+| IEP Status | "Draft = being developed | Pending = awaiting meeting | Active = approved | Expired = needs renewal" |
+| Goal Area | "Domain: Reading | Writing | Math | Speech | OT | PT | Behavior | Functional | Transition" |
+| Baseline | "Measurable starting point. Example: 'Reads 45 WPM with 70% accuracy'" |
+| Measurable Criteria | "How we'll know goal is met: '90% accuracy across 3 data points' or '8/10 trials'" |
+| Short-Term Objectives | "Smaller milestones leading to annual goal. Required for some disability categories." |
+| Progress Monitoring | "How often progress measured: Weekly | Bi-weekly | Monthly | Quarterly" |
+| Service Minutes | "Minutes per week of this service. Check state for minimums per disability." |
+| Service Location | "Where service delivered: General Ed Classroom | Special Ed Room | Therapy Room | Community" |
+| Provider | "Who provides this service: Special Ed Teacher | Speech Therapist | OT | Counselor" |
+| Extended School Year | "Summer services recommended. Based on regression/recoupment analysis." |
+| Prior Written Notice | "Required before any change in placement or services. District must provide." |
+
+---
+
+## EVALUATIONS
+
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Evaluation Type | "Initial = first eval | Triennial = 3-year reeval | Follow-up | Independent | Psychological" |
+| Evaluation Status | "Scheduled = upcoming | In Progress = being conducted | Complete = report done | Waiting = on hold" |
+| Requested By | "Who requested this evaluation: Parent | District | Physician" |
+| Assessment Areas | "Cognitive | Academic | Speech/Language | OT/PT | Adaptive | Behavior | Social-Emotional" |
+| evaluator | "Who is conducting the evaluation" |
+| Report Date | "When report will be completed" |
+| Meeting Date | "When IEP team will review results" |
+
+---
+
+## DEADLINES & TIMELINES
+
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Deadline Type | "IEP Due | Response Due | Meeting Scheduled | Due Process | Court Date" |
+| Due Date | "When action required. Check state timeline for IEP meetings." |
+| Reminder | "When to be reminded: 1 day | 3 days | 1 week | 2 weeks before" |
+| Assigned To | "Who is responsible for this deadline" |
+| Status | "Pending | In Progress | Completed | Missed" |
+| Escalate If | "Trigger escalation if not completed by this date" |
+
+---
+
+## LAW LIBRARY
+
+| Field | Tooltip Content |
+| ----- | ----------------|
+| State Selection | "Select the state whose regulations to check against" |
+| IDEA Category | "One of 13 disability categories under IDEA" |
+| Crosswalk | "Maps IEP requirements to state-specific regulations" |
+| Search | "Search federal IDEA, state regs, or case law" |
+| Citation Format | "Use proper legal citation: '34 CFR 300.XXX' or 'Texas Edu. Code 29XXX'" |
+
+---
+
+## SETTINGS
+
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Firm Name | "Your business name on invoices and documents" |
+| Default Hourly Rate | "Used for new cases unless overridden" |
+| Time Zone | "Affects deadlines and billing calculations" |
+| Invoice Template | "Which template for invoice appearance" |
+| Email Signature | "Appears on all client emails" |
+| Two-Factor Auth | "Required for all staff. Adds security for client data." |
+| Session Timeout | "Auto-logout after inactivity. HIPAA recommends 15 min." |
+
+---
+
+## DASHBOARD
+
+| Field | Tooltip Content |
+| ----- | ----------------|
+| Active Cases | "Cases with status Active - your current workload" |
+| Pending Deadlines | "Deadlines approaching - sorted by due date" |
+| Revenue MTD | "Money invoiced this month (not necessarily collected)" |
+| Utilization | "Billable hours / total hours worked. Target typically 60-80%." |
+| Upcoming IEPs | "IEP meetings in next 30 days" |
+
+---
+
+## IMPLEMENTATION PRIORITY
+
+### Phase 1 - Must Have (Critical Fields)
+1. Hourly Rate
+2. Case Status  
+3. Baseline
+4. Measurable Criteria
+5. Progress Monitoring
+6. Service Minutes
+7. Document Type
+8. Billable/Non-billable
+
+### Phase 2 - Should Have (Common Fields)
+1. Time Entry Category
+2. Priority Level
+3. IEP Type
+4. Invoice Status
+5. Primary Disability
+6. Student Grade Level
+7. Rate Type
+8. Client Status
+9. Case Type
+10. Deadline Type
+
+### Phase 3 - Nice to Have (Remaining Fields)
+All others - can be added incrementally
+
+---
+
+## Implementation Notes
 
 ```tsx
+// Use existing IconTooltip component:
 <IconTooltip content="Your tooltip text here" />
+
+// Place next to field labels or info icons
+// For fields with existing tooltips, update content to be more helpful
+// Test on mobile - tooltips should work on touch
 ```
+
+Send this to Lovable in phases:
+1. First - Phase 1 fields (8 tooltips)
+2. Second - Phase 2 fields (10 tooltips)  
+3. Third - Phase 3 fields (remaining ~50 tooltips)
+
+Total: 68+ tooltips covering all major areas of the app.
