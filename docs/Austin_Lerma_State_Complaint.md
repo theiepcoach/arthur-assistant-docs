@@ -78,6 +78,14 @@ Austin Lerma is an 8th-grade student eligible for special education services und
 - First DAEP Placement: On or about September 30, 2025 through November 20, 2025
 - Second DAEP Placement: On or about February 19, 2026 — **currently still placed in DAEP as of this complaint**
 
+**First MDR (September 29, 2025):**
+- ARD committee conducted manifestation determination for first DAEP placement
+- Parent (Dayna Herrera) **did NOT agree** with the committee's determination
+- Parent stated she believes Austin's behaviors are a manifestation of his disability and her doctor agrees
+- Parent requested updated testing to evaluate eligibility for autism
+- Case manager claimed all services and accommodations were being followed — however, this was before social skills were discontinued in January 2026
+- Committee determined behaviors were NOT manifestation of disability — parent disputed this
+
 **Alleged Violations and Supporting Facts:**
 
 **Violation 1 — Failure to Implement IEP:**
@@ -227,6 +235,13 @@ The following documents should be reviewed by TEA during the investigation:
     - BASC-3 scores showing clinically significant anger and emotional self-control
     - Dual eligibility documentation (OHI and Emotional Disability)
     - Evaluation data reviewed during MDR
+
+11. **Manifestation Determination Review (MDR) dated September 29, 2025:**
+    - First MDR leading to first DAEP placement
+    - Documentation that parent DID NOT AGREE with determination
+    - Parent's written statement that doctor agrees behaviors are manifestation of disability
+    - Parent's request for autism evaluation
+    - Case manager's statement that IEP was being followed
 
 ---
 
