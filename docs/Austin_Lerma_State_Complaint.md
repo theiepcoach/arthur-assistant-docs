@@ -82,6 +82,10 @@ The district failed to implement the IEP by not monitoring progress during DAEP 
 - **District did not provide raw data collection sheets to DAEP staff**, preventing any meaningful data collection
 - On February 17, 2026, during a Manifestation Determination Review (MDR), the district stated Austin's IEP would be implemented during his DAEP placement — however, the district failed to fulfill this commitment
 
+**ADDITIONAL VIOLATION — Discontinuation of Social Skills Services:**
+
+The district discontinued Austin's social skills services at the start of the second semester (January 2026) when he was moved to a general education "Bronco Time" for ELA acceleration. During the MDR on February 17, 2026, the ARD committee reviewed service logs which revealed that while social skills were provided through December 2025, they were discontinued for the second semester. The parent advocate noted that the incident in question may have been directly related to this failure to implement social skills services. The district acknowledged this discontinuation but failed to providecompensatory services to replace the lost social skills support.
+
 **Violation 2 — Failure to Provide Measurable, Data-Based Progress Reporting:**
 
 The district failed to provide measurable, data-based progress reporting concurrent with report cards:
@@ -111,6 +115,10 @@ The district failed to ensure consistent progress monitoring:
 - Behavioral data (DBRC) was not accessible due to DAEP placement
 - **District failed to provide raw data collection sheets to DAEP staff**, making cross-setting monitoring impossible
 
+**ADDITIONAL VIOLATION — Discontinuation of Social Skills Services:**
+
+The district discontinued Austin's social skills services at the start of the second semester (January 2026) when he was moved to a general education "Bronco Time" for ELA acceleration. During the MDR on February 17, 2026, the ARD committee reviewed service logs which revealed that while social skills were provided through December 2025, they were discontinued for the second semester. The parent advocate noted that the incident in question may have been directly related to this failure to implement social skills services. The district acknowledged this discontinuation but failed to provide compensatory services to replace the lost social skills support.
+
 **Violation 5 — Denial of Parent Meaningful Participation:**
 
 The district's failures denied the parent meaningful participation:
@@ -126,7 +134,36 @@ The district's failures denied the parent meaningful participation:
   - Advocating for additional services or supports
   - Determining if compensatory services were warranted
 
-**Violation 6 — Denial of FAPE:**
+---
+
+**Violation 6 — Failure to Maintain Required Social Skills Services:**
+
+The district failed to maintain Austin's social skills services as required by the IEP:
+
+- Austin's IEP included social skills services
+- These services were discontinued at the start of second semester (January 2026) when Austin was moved to general education "Bronco Time" for ELA acceleration
+- Service logs reviewed during the MDR on February 17, 2026, confirmed social skills were only provided through December 2025
+- The parent advocate specifically noted during the MDR that the incident "may have been directly related to this failure to implement social skills"
+- The district failed to provide alternative services or compensatory supports when discontinuing social skills
+
+This discontinuation of required IEP services directly contributed to Austin's inability to receive the social-emotional supports necessary to handle the threatening situation he faced.
+
+---
+
+**Violation 7 — District's Own Evidence Shows Emotional Disability Impact:**
+
+The district's Full Individual Evaluation (FIE) dated February 5, 2026, and reviewed during the MDR, shows:
+
+- BASC-3 (Behavior Assessment System for Children) scores show **clinically significant anger and emotional self-control** issues
+- Austin now has **dual eligibility**: Other Health Impairment (ADHD) AND Emotional Disability
+- The parent advocate specifically raised the issue of these clinically significant BASC scores during the MDR
+- The district's own school psychologist acknowledged these scores but stated "low scores in this area do not necessarily show a direct and substantial relationship to Austin's disability"
+
+The district cannot simultaneously acknowledge clinically significant emotional/behavioral needs in evaluation data while denying that those same needs relate to the student's eligibility. This represents a substantive violation of proper eligibility determination and denies the student the supports his documented needs require.
+
+---
+
+**Violation 8 — Denial of FAPE:**
 
 Collectively, the district's failures resulted in denial of FAPE:
 
@@ -175,6 +212,17 @@ The following documents should be reviewed by TEA during the investigation:
 
 8. **Discipline Records:**
    - Referral records supporting DAEP placement
+
+9. **Manifestation Determination Review (MDR) Documentation:**
+   - February 17, 2026 MDR meeting notes
+   - Service logs showing discontinuation of social skills (January 2026)
+   - Parent advocate input and concerns documented
+   - District's commitment to implement IEP at DAEP
+
+10. **Full Individual Evaluation (FIE) dated February 5, 2026:**
+    - BASC-3 scores showing clinically significant anger and emotional self-control
+    - Dual eligibility documentation (OHI and Emotional Disability)
+    - Evaluation data reviewed during MDR
 
 ---
 
