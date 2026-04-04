@@ -55,7 +55,15 @@ The complainant alleges the following violations of the Individuals with Disabil
 - Federal: 34 C.F.R. § 300.322, 34 C.F.R. § 300.327
 - Texas: TEC §29.0051, 19 TAC §89.1055(b), 19 TAC §89.1049(a)(7)
 
-**Violation 6: Denial of FAPE**
+**Violation 6: Failure to Implement IEP Services with Fidelity**
+- Federal: 34 C.F.R. § 300.323
+- Texas: 19 TAC §89.1055(a)
+
+**Violation 7: Failure to Maintain Required Social Skills Services**
+- Federal: 34 C.F.R. § 300.323
+- Texas: 19 TAC §89.1055(a)
+
+**Violation 8: Denial of FAPE**
 - Federal: 34 C.F.R. § 300.101
 - Texas: TEC §29.001, 19 TAC §89.1003
 
@@ -77,14 +85,10 @@ Austin Lerma is an 8th-grade student eligible for special education services und
 The district failed to implement the IEP by not monitoring progress during DAEP placement. Specifically:
 
 - District documentation states: "Conditions at DAEP do not allow for proper monitoring of this goal's progress"
-- Teachers at DAEP "do not currently have access to grades"
-- Progress monitoring logs confirm lack of access to behavior data during DAEP
-- **District did not provide raw data collection sheets to DAEP staff**, preventing any meaningful data collection
+- The teacher at Austin's home campus (North Belton Middle School) claimed they could no longer provide progress monitoring because he was moved to DAEP and they were "unable to see his grades"
+- **This excuse is invalid because Austin's IEP goals were NOT based on grades** — they were behavioral and academic goals that should have been monitored through the DBRC (Daily Behavior Report Card), data collection, and teacher observations
+- **No data collection occurred for ANY goal during DAEP placement** — the lack of data collection on any goal demonstrates that NONE of Austin's IEP services were implemented with fidelity as stated in his IEP
 - On February 17, 2026, during a Manifestation Determination Review (MDR), the district stated Austin's IEP would be implemented during his DAEP placement — however, the district failed to fulfill this commitment
-
-**ADDITIONAL VIOLATION — Discontinuation of Social Skills Services:**
-
-The district discontinued Austin's social skills services at the start of the second semester (January 2026) when he was moved to a general education "Bronco Time" for ELA acceleration. During the MDR on February 17, 2026, the ARD committee reviewed service logs which revealed that while social skills were provided through December 2025, they were discontinued for the second semester. The parent advocate noted that the incident in question may have been directly related to this failure to implement social skills services. The district acknowledged this discontinuation but failed to providecompensatory services to replace the lost social skills support.
 
 **Violation 2 — Failure to Provide Measurable, Data-Based Progress Reporting:**
 
@@ -113,7 +117,7 @@ The district failed to ensure consistent progress monitoring:
 - No consistent system for tracking progress across time or settings
 - District admits monitoring cannot occur in DAEP due to lack of data access
 - Behavioral data (DBRC) was not accessible due to DAEP placement
-- **District failed to provide raw data collection sheets to DAEP staff**, making cross-setting monitoring impossible
+- **The complete lack of data collection on ANY goal demonstrates that NONE of Austin's IEP services were implemented with fidelity** — this is a direct violation of the IEP requirement that services be provided as written
 
 **ADDITIONAL VIOLATION — Discontinuation of Social Skills Services:**
 
